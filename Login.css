@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(21,21,21,0.7), rgba(21,21,21,0.7)), url(Images/Bg\ img.png);
+  background-size: cover;
+  background-position: center;
+  }
+  .Sign{
+    position: relative;
+    max-width: 460px;
+    width: 50%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+  }
+  .Sign form .input{
+    height: 52px;
+    margin: 20px 0;
+  }
+  form .input input{
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+  }
+  .remember{
+    display: flex;
+    align-items: center;
+  }
+  form h3{
+    color: #0f0e0e;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #f44070;
+  }
+  .input.button input:hover{
+    background: #0e4bf1;
+  }
